@@ -1,0 +1,55 @@
+#pricing {
+  padding: 80px 0;
+  background-color: #F5F5F5;
+}
+.pricing_wrap {
+  margin-top: 62px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.card_pricing {
+  width: 340px;
+  margin: 0 15px 10px;
+
+}
+.rate {
+  background-color: #333333;
+  color: #FFFFFF;
+  font-size: 20px;
+  text-align: center;
+  line-height: 50px;
+  font-family: open sans;
+  font-weight: 700;
+}
+.cost {
+  background-color: #333333;
+  color: #FFFFFF;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 2px;
+  line-height: 100px;
+  font-family: releway;
+  font-weight: 700;
+}
+.free {
+  background-color: #333333;
+  color: #FFFFFF;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 2px;
+  line-height: 50px;
+  font-family: open sans;
+  font-weight: 600;
+}
+
+.space {
+  background-color: #FFFFFF;
+  color: #86878B;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 2px;
+  line-height: 40px;
+  font-family: open sans;
+  font-weight: 400;
+}

@@ -3,10 +3,10 @@
   background-color: #F5F5F5;
 }
 .pricing_wrap {
-  margin-top: 62px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin: 62px -15px 0 -15px;
 }
 .card_pricing {
   width: 340px;

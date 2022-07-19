@@ -11,7 +11,7 @@ html {
   font-family: "Open Sans", "Raleway", sans-serif;
 }
 .container{
-  margin:-15px auto;
+  margin: auto;
   max-width: 1170px;
   padding: 0 15px;
 }

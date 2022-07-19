@@ -25,7 +25,7 @@
 .ourprocess_wrap {
   display: flex;
   justify-content: space-between;
-  margin-top: 68px;
+  margin: 68px -15px 0 -15px;
   flex-wrap: wrap;
 }
 .card {

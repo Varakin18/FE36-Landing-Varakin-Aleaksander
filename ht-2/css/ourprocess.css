@@ -1,28 +1,26 @@
 #ourprocess {
+  background-color: #FFFFFF;
   padding: 80px 0;
-  
 }
-
-.line {
-  margin: 34px auto 0;
-  width: 64px;
-  height: 2px;
-  background-color: #E72424;
+h2.title:after {
+content: ' ';
+display: block;
+height: 2px;
+background: #E72424;
+width: 64px;
+margin: 34px auto 0;
 }
-
 .description {
   margin-top: 34px;
 }
-
 .description p {
   color: #86878B;
   font-size: 14px;
   text-align: center;
-  font-family: open sans;
+  font-family: 'open sans';
   font-weight: 400;
   margin-bottom: 68px;
 }
-
 .ourprocess_wrap {
   display: flex;
   justify-content: space-between;
@@ -32,12 +30,12 @@
 .card {
   width: 350px;
   display: flex;
+  /*height: 100%;*/
   flex-direction: column;
   margin: 0 15px 10px;
 }
 .card_content {
   width: 350px;
-
 }
 .card_img {
   height: 70px;
@@ -48,31 +46,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
-
 }
-
 .card_img img {
   width: 23px;
   height: 30px;
 }
-
 .card_title {
   font-size: 20px;
   color: #333333;
   text-align: center;
   margin-bottom: 16px;
-  font-family: open sans;
+  font-family: 'open sans';
   font-weight: 700;
 }
-
 .card_text {
   width: 350px;
-  font-family: open sans;
+  font-family: 'open sans';
   font-weight: 400;
   flex: 1 1 auto;
 }
-
 .card_text p {
   text-align: center;
   font-size: 14px;

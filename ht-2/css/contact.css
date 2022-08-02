@@ -1,0 +1,49 @@
+#contact {
+  background-color: #FFFFFF;
+  padding: 80px 0;
+}
+.registracion_contact {
+  width: 40%;
+}
+.contact_wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.message {
+  color: #BDBDBD;
+  font-size: 16px;
+  width: 40%;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #BDBDBD;
+  padding: 20px;
+}
+
+textarea {
+  border: none;
+  resize: none;
+  outline: none;
+  height: 200px;
+  width: 100%;
+  overflow: auto;
+}
+.but_contact {
+  margin-top: 70px;
+  padding: 11px 30px;
+  text-align: center;
+  outline: none;
+  border: none;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: #EC7979;
+  border: 1px solid #FFFFFF;
+  line-height: 42px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 15px;
+  color: #FFFFFF;
+  cursor: pointer;
+}

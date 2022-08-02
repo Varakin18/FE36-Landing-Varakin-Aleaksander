@@ -4,7 +4,7 @@
 }
 .pricing_wrap {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   margin: 0 -15px;
 }
@@ -18,7 +18,7 @@
   font-size: 20px;
   text-align: center;
   line-height: 50px;
-  font-family: 'open sans';
+  font-family: "Open Sans";
   font-weight: 700;
 }
 .cost {
@@ -28,7 +28,7 @@
   text-align: center;
   margin-top: 2px;
   line-height: 100px;
-  font-family: releway;
+  font-family: "Raleway";
   font-weight: 700;
 }
 .free {
@@ -38,7 +38,7 @@
   text-align: center;
   margin-top: 2px;
   line-height: 50px;
-  font-family: 'open sans';
+  font-family: "Open Sans";
   font-weight: 600;
 }
 .space {
@@ -48,6 +48,6 @@
   text-align: center;
   margin-top: 2px;
   line-height: 40px;
-  font-family: open sans;
+  font-family: "Open Sans";
   font-weight: 400;
 }

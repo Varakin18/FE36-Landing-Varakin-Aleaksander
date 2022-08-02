@@ -1,0 +1,35 @@
+#footer {
+  background-color: #000000;
+  padding: 15px 0;
+}
+/* .icons_wrap {
+  width: 50%;
+  align-items: center;
+} */
+.footer_icon {
+  margin-bottom: 47px  ;
+  width: 100%;
+  text-align: center;
+}
+
+
+.social_view_footer {
+  width: 40%;
+  text-align: center;
+  margin: 30px auto 18px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  color: #86878B;  
+  font-size: 23px;
+  padding: 0 12px;
+}
+.footer_text {
+  font-size: 12px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  color: #86878B;
+  text-align: center  ;
+}

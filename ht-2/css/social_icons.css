@@ -1,0 +1,163 @@
+.social_icons{
+  background-color: #F8EFEF;
+  padding: 15px 0;
+}
+.social_wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 0 -15px; */
+}
+.media {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+.media h2 {
+  font-size: 20px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  color: #333333;
+  margin-bottom: 14px;
+}
+.media p {
+  font-size: 14px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  color: #86878B;
+}
+
+.icons {
+  width: 55%;
+}
+.social_view {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 42px;
+  color: #86878B;
+
+}
+
+.fa-facebook {
+  border-radius: 50%;
+  overflow: hidden;
+/* font-size: 42px; */
+color: #86878B;
+cursor: pointer;
+transition: all 0.6s;
+}
+.fa-facebook:hover {
+color: blue;
+transform: rotate(720deg) scale(1.5);
+/* transform: rotate(720deg); */
+/* transform: scale(1.5); */
+box-shadow: 0px 10px 20px 5px rgb(171, 21, 21);
+background-color: aqua;
+}
+
+.fa-twitter {
+  border-radius: 50%;
+  overflow: hidden;
+/* font-size: 42px; */
+color: #86878B;
+cursor: pointer;
+transition: all 0.6s;
+overflow: hidden;
+}
+.fa-twitter:hover {
+color: blue;
+transform: rotate(720deg) scale(1.5);
+/* transform: rotate(720deg); */
+/* transform: scale(1.5); */
+box-shadow: 0px 10px 20px 5px rgb(171, 21, 21);
+overflow: auto;
+}
+
+.fa-google {
+  border-radius: 50%;
+  overflow: hidden;
+/* font-size: 42px; */
+color: #86878B;
+cursor: pointer;
+transition: all 0.6s;
+}
+.fa-google:hover {
+color: blue;
+transform: rotate(720deg) scale(1.5);
+/* transform: rotate(720deg); */
+/* transform: scale(1.5); */
+box-shadow: 0px 10px 20px 5px rgb(171, 21, 21);
+background-color: aqua;
+}
+.fa-telegram {
+  border-radius: 50%;
+  overflow: hidden;
+/* font-size: 42px; */
+color: #86878B;
+cursor: pointer;
+transition: all 0.6s;
+}
+.fa-telegram:hover {
+color: blue;
+transform: rotate(720deg) scale(1.5);
+/* transform: rotate(720deg); */
+/* transform: scale(1.5); */
+box-shadow: 0px 10px 20px 5px rgb(171, 21, 21);
+background-color: aqua;
+}
+.fa-square-instagram {
+  border-radius: 50%;
+  overflow: hidden;
+/* font-size: 42px; */
+color: #86878B;
+cursor: pointer;
+transition: all 0.6s;
+}
+.fa-square-instagram:hover {
+color: blue;
+transform: rotate(720deg) scale(1.5);
+/* transform: rotate(720deg); */
+/* transform: scale(1.5); */
+box-shadow: 0px 10px 20px 5px rgb(171, 21, 21);
+background-color: aqua;
+}
+.fa-viber {
+  border-radius: 50%;
+  overflow: hidden;
+/* font-size: 42px; */
+color: #86878B;
+cursor: pointer;
+transition: all 0.6s;
+}
+.fa-viber:hover {
+color: blue;
+transform: rotate(720deg) scale(1.5);
+/* transform: rotate(720deg); */
+/* transform: scale(1.5); */
+box-shadow: 0px 10px 20px 5px rgb(171, 21, 21);
+background-color: aqua;
+}
+
+.fa-twitch {
+  border-radius: 50%;
+  overflow: hidden;
+/* font-size: 42px; */
+color: #86878B;
+cursor: pointer;
+transition: all 0.6s;
+}
+.fa-twitch:hover {
+color: blue;
+transform: rotate(720deg) scale(1.5);
+/* transform: rotate(720deg); */
+/* transform: scale(1.5); */
+box-shadow: 0px 10px 20px 5px rgb(171, 21, 21);
+background-color: aqua;
+}
+
+

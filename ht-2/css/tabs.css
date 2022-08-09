@@ -1,6 +1,12 @@
 #tabs{
   padding: 125px 0 125px;
 }
+@media (max-width: 700px) {
+  #tabs {
+    padding: 55px 0 20px;
+    background-color: #F5F5F5;
+  }
+}
 
 .tabs__wrap{
   display: flex;
@@ -9,10 +15,10 @@
   justify-content: space-around;
 }
 
-.tabs__tab{
-  margin-right: 25px;
-  /* width: 10%; */
-}
+
+
+
+
 
 .tabs__tab button{
   display: block;
@@ -25,7 +31,7 @@
   text-transform: uppercase;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 0.9375rem;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -44,6 +50,13 @@
   border: none;
 }
 
+@media (max-width: 458px){
+.tabs__tab button {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+}
 .tabs__but-content{
   display: flex;
   flex-direction: column;
@@ -54,7 +67,7 @@
   margin-right: 20px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #86878B;
   text-transform: uppercase;
 }
@@ -62,7 +75,7 @@
 #tabs__subtitle{
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 #tabs__subtitle::after{
@@ -81,7 +94,7 @@
   color: #fff;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 0.9375rem;
   text-transform: capitalize;
   cursor: pointer;
   transition: 0.3s;
@@ -91,7 +104,11 @@
   background-color: rgba(236, 121, 121, 0.8);
   color: black;
 }
-
+@media (max-width: 340px) {
+.tabs__button {
+  width: 100%;
+}
+}
 .tabs__img{
   overflow: hidden;
   display: flex;
@@ -104,3 +121,35 @@
   width: 100%;
 }
 
+@media (max-width: 994px){
+  .tabs__tab {
+    display: flex;    
+  }
+  .tabs__wrap{
+flex-direction: column;
+flex-wrap: nowrap;
+align-items: center;
+  }
+  .tabs__img img {
+    display: none;
+  }
+  .tabs__tab button {
+    
+    margin: 0 10px;
+    
+  }
+  .tabs__but-content {
+    margin: 70px 0 0;
+    text-align: center;
+
+  }
+  .tabs__button {
+    margin: 55px auto 0;
+  }
+}
+@media (max-width: 780px) {
+  .tabs__but-content {
+    width: 80%;
+    margin: 40px 0 0;
+  }
+}

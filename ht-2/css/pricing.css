@@ -2,6 +2,7 @@
   padding: 80px 0;
   background-color: #F5F5F5;
 }
+
 .pricing_wrap {
   display: flex;
   justify-content: space-around;
@@ -12,10 +13,11 @@
   width: 340px;
   margin: 0 15px;
 }
+
 .rate {
   background-color: #333333;
   color: #FFFFFF;
-  font-size: 20px;
+  font-size: 1.25rem;
   text-align: center;
   line-height: 50px;
   font-family: "Open Sans";
@@ -24,7 +26,7 @@
 .cost {
   background-color: #333333;
   color: #FFFFFF;
-  font-size: 35px;
+  font-size: 2.1875rem;
   text-align: center;
   margin-top: 2px;
   line-height: 100px;
@@ -34,7 +36,7 @@
 .free {
   background-color: #333333;
   color: #FFFFFF;
-  font-size: 14px;
+  font-size: 0.875rem;
   text-align: center;
   margin-top: 2px;
   line-height: 50px;
@@ -44,10 +46,23 @@
 .space {
   background-color: #FFFFFF;
   color: #86878B;
-  font-size: 14px;
+  font-size: 0.875rem;
   text-align: center;
   margin-top: 2px;
   line-height: 40px;
   font-family: "Open Sans";
   font-weight: 400;
+}
+@media (max-width: 800px){
+#pricing {
+  padding: 40px 0;
+}
+.card_pricing {
+  margin: 0 15px 5px
+}
+}
+@media (max-width: 740px) {
+  .card_pricing {
+  margin: 0 15px 15px
+}
 }

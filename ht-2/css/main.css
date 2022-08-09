@@ -34,8 +34,8 @@ z-index: 0;
 }
 .title_main {
   text-transform: uppercase;
-  font-size: 36px;
-  width: 80%;
+  font-size: 2.25rem;
+  /* width: 80%; */
   color: #212121;
   font-family: "Raleway";
   font-weight: 400;
@@ -45,38 +45,39 @@ z-index: 0;
   width: 100%;
   display: flex;
   flex-direction: row;
-  
+  justify-content: space-between;
   align-items: center;
   flex-wrap: nowrap;
  
 }
 .card_main {
   /* margin: 0 15px 10px; */
+  width: 60%;
 }
 .logo_main{
   margin-bottom: 42px;
 }
-    .logo_main1 {
-      font-size: 60px;
+.logo_main1 {
+      font-size: 3.75rem;
       color: #ffffff;
       font-family: "Raleway";
       font-weight: 600;
   }
-  .logo_main2 {
-    font-size: 60px;
+.logo_main2 {
+    font-size: 3.75rem;
     color: #EC7979;
     font-family: "Raleway";
     font-weight: 600;
   }
-  .main_mask {
+.main_mask {
     margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
   }
   .title_main {
   text-transform: uppercase;
-  font-size: 36px;
+  font-size: 2.25rem;
   color: #ffffff;
   font-family: "Raleway";
   font-weight: 400;
@@ -92,7 +93,7 @@ h2.title_main:after {
 }
 .inp_main {
 display: flex;
-justify-content: flex-start;
+justify-content: center;
 margin-top: 75px;
   height: 25px;
   width: 95px;
@@ -102,7 +103,7 @@ margin-top: 75px;
 }
 .description_main {
 margin-top: 34px;
-font-size: 16px;
+font-size: 1rem;
 color: #86878B;
 font-family: "Raleway";
 font-weight: 300;
@@ -116,7 +117,7 @@ font-weight: 300;
 .a_2 {
 margin: auto;
 text-align: center;
-font-size: 15px;
+font-size: 0.9375rem;
 color: #FFFFFF;
 }
 .inp_main {
@@ -137,16 +138,53 @@ color: #FFFFFF;
   flex-direction: column;
   border-radius: 8px;
   background-color: #fff;
-  width: 40%;
-  
+  /* width: 40%; */
+    
   box-shadow: 0px 10px 20px 5px #FFFF;
  
 } 
+.registracion_info {
+  width: 370px;
+  height: 370px;
+}
+@media (max-width: 400px) {
+.registracion_info {
+  width: 290px;
+  height: 290px;
+}
+}
 
 .reg_name {
   padding: 15px 30px;
 text-transform: capitalize;
 
+}
+@media (max-width: 1010px){
+  .present_wrap {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .card_main {
+    text-align: center;
+  }
+  
+  .registracion {
+    margin-top: 0px;
+  }
+  h2.title_main:after {
+    margin: 34px auto;
+  }
+  .inp_main {
+    margin: 40px auto 60px;
+  }
+}
+@media (max-width: 890px){
+  .container_main {
+    width: 100%;
+}
+.card_main {
+  width: 100%;
+}
 }
 .reg_name h3 {
   margin-bottom: 20px;
@@ -154,6 +192,8 @@ text-transform: capitalize;
   font-family: "Open Sans";
   font-weight: 700;
 }
+
+
 
 form {
   display: flex;
@@ -178,7 +218,7 @@ form {
   font-family: "Open Sans";
   font-weight: 400;
   color: #BDBDBD;
-  font-size: 14px;
+  font-size: 0.875rem;
   
  
 }
@@ -195,10 +235,10 @@ form {
 
 .but  {
   outline: none;
-  margin-top: 30px;
+  margin-top: 50px;
   border:none;
   text-align: center;
-  line-height: 45px;
+  /* line-height: 55px; */
   color: #fff;
   width: 100%;
   height: 100%;
@@ -210,13 +250,22 @@ form {
   cursor: pointer;
   font-family: "Open Sans";
   font-weight: 600;
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 .but:hover {
   
   transform: translateY(5px);
 }
 
+@media (max-width: 400px){
+  .but {
+line-height: 35px;
+margin-top: 20px;
+  }
+}
+  
+
+  
 
 
 

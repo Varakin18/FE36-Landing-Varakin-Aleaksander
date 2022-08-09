@@ -23,11 +23,11 @@
   justify-content: space-between;
   align-items: center;
   color: #86878B;  
-  font-size: 23px;
+  font-size: 1.4375rem;
   padding: 0 12px;
 }
 .footer_text {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-family: "Open Sans";
   font-weight: 400;
   color: #86878B;

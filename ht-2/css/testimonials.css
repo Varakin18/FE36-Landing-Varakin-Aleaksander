@@ -8,9 +8,16 @@
   margin: 0 -15px;
   flex-wrap: wrap;
 }
+.card{
+margin: 1px 15px 30px;
+/*background-color: #2b54b1;*/
+box-shadow: 0px 10px 20px 5px #2b54b1;
+padding: 10px;
+border-radius: 8px;
+}
  .card_text-review {
  	position: relative;
-  background-color: #c1e9ef;
+  background-color: #c2c1ef;
   border-radius: 7px;
   padding: 15px;
   height: 100%;
@@ -25,7 +32,7 @@
  	height: 0;
  	border-style: solid;
  	border-width: 11px 15px 0 15px;
- 	border-color: #c1e9ef transparent transparent transparent;
+ 	border-color: #c2c1ef transparent transparent transparent;
     position: absolute;
  }  
 
@@ -33,7 +40,7 @@
  margin-top: 15px;
  display: inline-flex;
  /*align-items: center;*/
- justify-content: space-around;
+ justify-content: flex-start;
  flex-direction: row;
  }
  .card_foto {
@@ -66,4 +73,13 @@ p.person {
 }
 .person_prof {
 	/*margin:  10px;*/
+}
+@media (max-width: 770px) {
+  #testimonials {
+    padding: 40px 0;
+  }
+}@media (max-width: 530px) {
+  #testimonials {
+    padding: 10px 0;
+  }
 }

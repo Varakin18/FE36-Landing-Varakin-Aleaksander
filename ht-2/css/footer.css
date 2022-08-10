@@ -33,3 +33,13 @@
   color: #86878B;
   text-align: center  ;
 }
+@media (max-width: 834px) {
+  .social_view_footer {
+    width: 100%;
+    justify-content: space-around;
+    margin: 10px;
+  }
+  .footer_icon {
+    margin: 0;
+  }
+}

@@ -25,7 +25,7 @@ textarea {
   border: none;
   resize: none;
   outline: none;
-  height: 200px;
+  height: 120px;
   width: 100%;
   overflow: auto;
 }
@@ -46,4 +46,54 @@ textarea {
   font-size: 0.9375rem;
   color: #FFFFFF;
   cursor: pointer;
+}
+.reg_name_contact {
+  padding: 15px 30px;
+text-transform: capitalize;
+}
+.form_item_contact {
+  display: flex;
+  flex-direction: column;
+  line-height: 40px;
+  text-transform: capitalize;
+  width: 80%;
+  margin: auto;
+  font-family: "Open Sans";
+  font-weight: 400;
+  color: #BDBDBD;
+  font-size: 0.875rem;
+}
+.form_item_contact input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #BDBDBD;
+  width: 100%;
+}
+
+@media (max-width: 837px) {
+.contact_wrap {
+  
+  
+  flex-direction: column;
+  align-items: center;
+}
+.form_item_contact {
+  width: 100%;
+  padding: 0;
+}
+.message {
+  padding: 0;
+}
+.reg_name_contact {
+  padding: 0;
+  margin-bottom: 60px;
+}
+}
+@media (max-width: 560px) {
+  .registracion_contact {
+    width: 75%;
+  }
+  .message {
+    width: 75%;
+  }
 }
